@@ -6,10 +6,12 @@ import time
 import requests
 import yaml
 
-filename = '/config/packages/skyq_mediaplayer.yaml'
-name = 'Sky'
+# configuration
+filename = '/config/packages/skyq_mediaplayer.yaml
+name = 'Sky'        
 host = '192.168.1.15'
 country = 'ITA'
+
 
 async def buildChannelList():
 
