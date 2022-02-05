@@ -10,7 +10,7 @@ Pleas vote this issue to make this possibile -> https://community.home-assistant
 
 # pyscript service
 to use the script as [pyscript](https://github.com/custom-components/pyscript) script follow the path used in this repo (or adjust the path accordingly in the py source file).
-While installing pyscript, use the following configuration (adjust the skyq platform config according to your needs):
+While installing pyscript, use the following configuration (adjust the skyq platform config according to your needs. You can check their meaning in the [Sky Q component for Home Assistant](https://github.com/RogerSelwyn/Home_Assistant_SkyQ_MediaPlayer#configuration-variables) repo):
 ```
 pyscript:
   allow_all_imports: true
@@ -19,7 +19,7 @@ pyscript:
     skyq_update:
       name: SkyQ Living Room
       host: 192.168.0.10
-      country: ITA
+      country: ""
       live_tv: true
-      volume_entity: media_player.tv
+      volume_entity: ""
 '''
